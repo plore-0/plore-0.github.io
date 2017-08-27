@@ -1,0 +1,165 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	
+	font-family: "Lato", sans-serif;
+}
+
+.button {
+    background-color: #6600ff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.textbox { 
+    background: white; 
+    border: 1px solid #6600ff; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #6600ff; 
+    color: #666; 
+    outline: none; 
+    height:23px; 
+    width: 275px; 
+}
+
+#title {
+	color: white;	
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+}
+
+#instruction {
+	color: white;
+	position: absolute;
+	bottom: 55px;
+	left: 10px;
+}
+
+#image {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+#soundcloud {
+	position: absolute;
+	bottom: 40px;
+	left: 320px;
+	z-index: 2;
+}
+
+#artisttitle {
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 170px;
+	font-size: 50%;
+}
+
+#songtitle {
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	font-size: 70%;
+}
+
+#URLbox {
+	z-index: 2;
+	position: absolute;
+	bottom: 45px; 
+	left: 10px; 
+	width: 300px;
+}
+
+#button_play {
+	z-index: 2;
+	position: relative;
+	bottom: 47px;
+	left: 33.3%;
+}
+
+#button_pause {
+	z-index: 2;
+	position: relative;
+	bottom: 86px;
+	left: 33.3%;
+}
+
+#homelink {
+	position: absolute;
+	bottom: 40px;
+	right: 20px;
+	
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}
+
+#credit {
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+	z-index: 3;
+	
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}
+
+#scrubber {
+	z-index: 2;
+	position: relative;
+	bottom: 110px;
+	left: 33.3vw;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 10px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #6600ff;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+#audioCurrentTime {
+	color: white;
+	position: relative;
+	bottom: 147px;
+	left: 66.6%;
+	font-size: 70%;
+}
+
+.link {
+	color: rgb(255, 255, 255);
+}

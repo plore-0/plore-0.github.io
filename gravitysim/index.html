@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		
+		<title>N-Body Gravity Sim.</title>
+		<link href="gravsimicon.ico" rel="shortcut icon" type="image/x-icon">
+		
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+
+	<body onload="main()" oncontextmenu="return false">
+		<div id="text">
+
+			<h2 class="title">N-Body Gravity Simulator</h2>
+
+			<p class="instructions">Click & drag left mouse button to create a particle. Click & drag right mouse button to move the view.</p>
+			<p class="info" id="siminfo"></p>
+		</div>
+		
+		<a class="homelink" href="https://internetgb.github.io/">internetgb.github.io</a>	
+	
+		<canvas id="frame">
+			Go get a better web browser ya dingus
+		</canvas>
+		
+		<button class="trace_button" onclick="buttonTrace()">
+			Toggle tracing
+		</button>
+		
+		<button class="reset_button" onclick="reset()">
+			Reset
+		</button>
+		
+		<button class="clear_button" onclick="clearWorld()">
+			Clear
+		</button>
+		
+		<input class="massInput" name="mass" type="number" value="50" id="input_mass"/>
+		
+	</body>	
+</html>

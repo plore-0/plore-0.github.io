@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.trace_button {
+	z-index: 2;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.reset_button {
+	z-index: 2;
+	position: absolute;
+	bottom: 22px;
+	left: 0px;
+}
+
+.clear_button {
+	z-index: 2;
+	position: absolute;
+	bottom: 22px;
+	left: 50px;
+}
+
+.massInput {
+	z-index: 2;
+	position: absolute;
+	bottom: 0px;
+	left: 150px;
+	width: 70px;
+}
+
+#text {
+	color: white;
+	font-size: 90%;
+}
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+
+.instructions {
+	position: absolute;
+	top: 35px;
+	left: 20px;
+}
+
+.info {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
+.homelink {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+	
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}

@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	
+	background-image: url("clouds1.png"), url("clouds2.png"), url("clouds3.png"), url("clouds4.png");
+	background-repeat: repeat-x;
+}
+
+html {
+    background: linear-gradient(rgb(30, 39, 56), rgb(0, 0, 50)); /* Standard syntax */
+}
