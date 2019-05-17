@@ -150,7 +150,8 @@ function autoSelect() {
 }
 			
 function initMp3Player() {
-
+	context.resume()
+	
 	audio.src = inputURL;
 	
 	pause = 0;
